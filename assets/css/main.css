@@ -157,8 +157,7 @@ h6 {
 }
 
 .header .logo img {
-  max-height: 100px;
-  /* height: auto; */
+  max-height: 36px;
   margin-right: 8px;
 }
 
@@ -168,7 +167,7 @@ h6 {
   font-weight: 500;
   color: var(--heading-color);
   letter-spacing: 2px;
-  text-transform: none;
+  text-transform: uppercase;
 }
 
 .header .btn-getstarted,
@@ -638,7 +637,7 @@ h6 {
   color: var(--heading-color);
   font-size: 28px;
   font-weight: 600;
-  text-transform: none;
+  text-transform: uppercase;
   font-family: var(--heading-font);
 }
 
