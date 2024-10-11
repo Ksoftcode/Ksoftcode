@@ -1,7 +1,7 @@
 RewriteEngine On
 
-# Set home.html as the default page instead of index.html
-DirectoryIndex index.html home.html
+# Set home.html as the default page instead of home.html
+DirectoryIndex home.html home.html
 
 # Remove .html extension from URLs
 RewriteCond %{REQUEST_FILENAME} !-f
